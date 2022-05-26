@@ -5,5 +5,6 @@ del %1.*
 copy ..\myprog\%1.* ..\myprog\%1
 del ..\myprog\%1.*
 copy ..\myprog\%1\%1.asm ..\myprog
+del ..\myprog\%1\%1.asm
 copy return2.bat ..\myprog\%1
 tlink -v ..\myprog\%1\%1.obj
