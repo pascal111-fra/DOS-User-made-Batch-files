@@ -1,0 +1,1 @@
+edit ..\myprog\exesh.asm
